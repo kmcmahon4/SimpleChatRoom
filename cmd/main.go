@@ -18,7 +18,7 @@ func main() {
 	}
 
 	defer listen.Close()
-	fmt.Println("Chat server is running on localhost:8080")
+	fmt.Println("Awesome! The chat server is running on localhost:8080")
 
 	for {
 		conn, err := listen.Accept()
